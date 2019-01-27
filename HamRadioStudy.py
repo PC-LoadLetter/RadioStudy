@@ -34,7 +34,7 @@ def main():
     total = correct + incorrect
     grade = round((correct/total*100),0)
     print(f"You attempted {total} questions answering {correct} correctly for a score of {grade}.")
-    time.sleep(1.5)
+    time.sleep(5)
 
 def update_score(score):
     progress_file = open(r"progress.py", "w")
